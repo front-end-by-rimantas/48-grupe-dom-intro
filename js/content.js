@@ -1,7 +1,5 @@
 const data1 = ['Miltai', '', 'Druska', 'Vanduo', 'Kiaušiniai'];
 const data2 = ['Mikseris', '        ', 'Keptuvė', ' ', 'Šaukštas', 'Lėkštė'];
-const data3 = ['A', 'AA', 'AAA'];
-const data4 = ['B', 'BB', 'BBB'];
 
 const ulDOM = document.querySelectorAll('.list');
 
@@ -23,5 +21,3 @@ function renderList(listDOM, data) {
 
 renderList(ulDOM[0], data1);
 renderList(ulDOM[1], data2);
-renderList(ulDOM[2], data3);
-renderList(ulDOM[3], data4);
